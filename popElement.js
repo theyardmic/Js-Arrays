@@ -2,5 +2,6 @@ let carModels = ["Merc", "Beamer", "Yota"];
 
 let removedCarModel = carModels.pop();
 
+console.log(carModels);
 console.log(removedCarModel);
-//aler(carModels);
+//alert(carModels);

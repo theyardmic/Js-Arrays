@@ -4,4 +4,5 @@ let carModels = ["Merc", "Beamer", "Yota"]; //initializing an array
 carModels.forEach(carModels => console.log(carModels)); //displaying array elements
 
 //using a mapping function
+carModels.map((model, index) => (console.log(index, model)))
 
